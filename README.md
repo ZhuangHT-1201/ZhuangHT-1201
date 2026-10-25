@@ -16,7 +16,7 @@
 <!-- PROJECTS:START -->
 <sub>25 个公开项目 · 按创建时间排列 · 每日自动同步</sub>
 
-<table width="100%">
+<table align="center" width="100%">
 <tr><td width="50%" valign="top"><a href="https://github.com/ZhuangHT-1201/last-ember"><strong>last-ember</strong></a><br><sub>第一人称生存射击游戏 · JavaScript</sub></td><td width="50%" valign="top"><a href="https://github.com/ZhuangHT-1201/nova-rift"><strong>nova-rift</strong></a><br><sub>浏览器 5v5 MOBA · JavaScript</sub></td></tr>
 <tr><td width="50%" valign="top"><a href="https://github.com/ZhuangHT-1201/hanmo-shanhe-lord"><strong>hanmo-shanhe-lord</strong></a><br><sub>汉代山河经营策略 · JavaScript</sub></td><td width="50%" valign="top"><a href="https://github.com/ZhuangHT-1201/poemscape"><strong>poemscape</strong></a><br><sub>四季诗词互动游戏 · HTML</sub></td></tr>
 <tr><td width="50%" valign="top"><a href="https://github.com/ZhuangHT-1201/cet6-summit"><strong>cet6-summit</strong></a><br><sub>CET-6 学习计划应用 · JavaScript</sub></td><td width="50%" valign="top"><a href="https://github.com/ZhuangHT-1201/silk-road-seasons"><strong>silk-road-seasons</strong></a><br><sub>敦煌丝路历史策略 · JavaScript</sub></td></tr>

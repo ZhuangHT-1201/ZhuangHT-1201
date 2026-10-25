@@ -140,7 +140,7 @@ def render_index(repositories: list[dict], overrides: dict[str, str]) -> str:
             START_MARKER,
             f"<sub>{count} 个公开项目 · 按创建时间排列 · 每日自动同步</sub>",
             "",
-            '<table width="100%">',
+            '<table align="center" width="100%">',
             *rows,
             "</table>",
             END_MARKER,
