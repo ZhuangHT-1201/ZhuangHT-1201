@@ -14,7 +14,7 @@
 ## 项目 / Projects
 
 <!-- PROJECTS:START -->
-<sub>25 个公开项目 · 按创建时间排列 · 每日自动同步</sub>
+<sub>25 个公开项目 · 按创建时间排列 · 每 6 小时自动同步</sub>
 
 <table align="center" width="100%">
 <tr><td width="50%" valign="top"><a href="https://github.com/ZhuangHT-1201/last-ember"><strong>last-ember</strong></a><br><sub>第一人称生存射击游戏 · JavaScript</sub></td><td width="50%" valign="top"><a href="https://github.com/ZhuangHT-1201/nova-rift"><strong>nova-rift</strong></a><br><sub>浏览器 5v5 MOBA · JavaScript</sub></td></tr>

@@ -138,7 +138,7 @@ def render_index(repositories: list[dict], overrides: dict[str, str]) -> str:
     return "\n".join(
         [
             START_MARKER,
-            f"<sub>{count} 个公开项目 · 按创建时间排列 · 每日自动同步</sub>",
+            f"<sub>{count} 个公开项目 · 按创建时间排列 · 每 6 小时自动同步</sub>",
             "",
             '<table align="center" width="100%">',
             *rows,
