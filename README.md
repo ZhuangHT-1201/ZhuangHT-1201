@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/ZhuangHT-1201">
-    <img src="./assets/profile-header.svg" width="100%" alt="Huiteng Zhuang — Automation undergraduate at Beihang University, Class of 2024">
+    <img src="./assets/profile-header-en.svg" width="100%" alt="Huiteng Zhuang — Automation undergraduate at Beihang University, Class of 2024">
   </a>
 </p>
 
