@@ -109,7 +109,7 @@ def project_cell(repository: dict, overrides: dict[str, str]) -> str:
     description = overrides.get(name, "")
     if not description:
         description = repository.get("description") or readme_summary(name)
-    description = short_summary(description) or "公开项目"
+    description = short_summary(description) or "Public project"
 
     language = repository.get("language") or "Code"
     details = [description, language]
@@ -138,7 +138,7 @@ def render_index(repositories: list[dict], overrides: dict[str, str]) -> str:
     return "\n".join(
         [
             START_MARKER,
-            f"<sub>{count} 个公开项目 · 按创建时间排列 · 每 6 小时自动同步</sub>",
+            f"<sub>{count} public projects · Ordered by creation date · Refreshes every 6 hours</sub>",
             "",
             '<table align="center" width="100%">',
             *rows,
