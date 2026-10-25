@@ -104,10 +104,6 @@ def short_summary(value: str, limit: int = 54) -> str:
     return value[: limit - 1].rstrip("，,.;；:： ") + "…"
 
 
-def markdown_text(value: str) -> str:
-    return value.replace("\\", "\\\\").replace("|", "\\|").replace("[", "\\[").replace("]", "\\]")
-
-
 def project_cell(repository: dict, overrides: dict[str, str]) -> str:
     name = repository["name"]
     description = overrides.get(name, "")
@@ -121,8 +117,9 @@ def project_cell(repository: dict, overrides: dict[str, str]) -> str:
         details.append("Fork")
 
     return (
-        f"**[{markdown_text(name)}]({repository['html_url']})**"
-        f"<br><sub>{markdown_text(' · '.join(details))}</sub>"
+        f'<a href="{html.escape(repository["html_url"], quote=True)}">'
+        f"<strong>{html.escape(name)}</strong></a>"
+        f"<br><sub>{html.escape(' · '.join(details))}</sub>"
     )
 
 
@@ -132,7 +129,8 @@ def render_index(repositories: list[dict], overrides: dict[str, str]) -> str:
         cells.append("")
 
     rows = [
-        f"| {cells[index]} | {cells[index + 1]} |"
+        f'<tr><td width="50%" valign="top">{cells[index]}</td>'
+        f'<td width="50%" valign="top">{cells[index + 1] or "&nbsp;"}</td></tr>'
         for index in range(0, len(cells), 2)
     ]
     count = len(repositories)
@@ -142,9 +140,9 @@ def render_index(repositories: list[dict], overrides: dict[str, str]) -> str:
             START_MARKER,
             f"<sub>{count} 个公开项目 · 按创建时间排列 · 每日自动同步</sub>",
             "",
-            "|  |  |",
-            "|:---|:---|",
+            '<table width="100%">',
             *rows,
+            "</table>",
             END_MARKER,
         ]
     )
