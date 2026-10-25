@@ -1,73 +1,46 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" fill="none" role="img" aria-labelledby="title desc">
-  <title id="title">Huiteng Zhuang</title>
-  <desc id="desc">A minimal academic profile cover about intelligent systems, simulation, autonomy, coordination, and digital twins.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">庄辉腾</title>
+  <desc id="desc">北京航空航天大学自动化专业 2024 级本科生个人主页封面。</desc>
 
   <defs>
     <clipPath id="card">
-      <rect width="1200" height="360" rx="18"/>
+      <rect width="1200" height="300" rx="18"/>
     </clipPath>
-    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
-      <path d="M 24 0 L 0 0 0 24" stroke="#1F2933" stroke-opacity="0.055" stroke-width="1"/>
+    <pattern id="grain" width="6" height="6" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.55" fill="#1F2933" fill-opacity="0.08"/>
     </pattern>
-    <filter id="soft-shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#27313A" flood-opacity="0.08"/>
-    </filter>
   </defs>
 
   <g clip-path="url(#card)">
-    <rect width="1200" height="360" fill="#F5F1E8"/>
-    <rect width="1200" height="360" fill="url(#grid)"/>
+    <rect width="1200" height="300" fill="#F6F2E9"/>
+    <rect width="1200" height="300" fill="url(#grain)"/>
 
-    <path d="M0 76H1200" stroke="#1F2933" stroke-opacity="0.16"/>
-    <path d="M0 320H1200" stroke="#1F2933" stroke-opacity="0.16"/>
-    <rect x="0" y="76" width="8" height="244" fill="#884A3B"/>
+    <path d="M0 62H1200" stroke="#1F2933" stroke-opacity="0.16"/>
+    <path d="M0 264H1200" stroke="#1F2933" stroke-opacity="0.16"/>
+    <rect x="0" y="62" width="7" height="202" fill="#884A3B"/>
 
-    <path d="M62 62V28" stroke="#884A3B" stroke-width="2"/>
-    <text x="78" y="50" fill="#884A3B" font-family="Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="700" letter-spacing="2.8">PROFILE / 01</text>
-    <text x="1112" y="50" text-anchor="end" fill="#57636D" font-family="Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="1.7">INTELLIGENT SYSTEMS</text>
+    <path d="M64 50V24" stroke="#884A3B" stroke-width="2"/>
+    <text x="80" y="43" fill="#884A3B" font-family="Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="700" letter-spacing="2.7">PROFILE / AUTOMATION</text>
+    <text x="1136" y="43" text-anchor="end" fill="#65717A" font-family="Consolas, 'Liberation Mono', monospace" font-size="11" letter-spacing="1.6">BEIHANG UNIVERSITY · 2024</text>
 
-    <text x="62" y="154" fill="#1F2933" font-family="'Iowan Old Style', 'Palatino Linotype', 'Book Antiqua', Georgia, serif" font-size="54" font-weight="600" letter-spacing="-1.1">Huiteng Zhuang</text>
-    <text x="64" y="199" fill="#49545E" font-family="'Iowan Old Style', 'Palatino Linotype', 'Book Antiqua', Georgia, serif" font-size="24" font-style="italic">Intelligent systems, observed through simulation.</text>
+    <text x="62" y="151" fill="#1F2933" font-family="'Noto Serif CJK SC', 'Songti SC', SimSun, serif" font-size="68" font-weight="600" letter-spacing="2">庄辉腾</text>
+    <text x="67" y="185" fill="#6D514A" font-family="Georgia, 'Times New Roman', serif" font-size="17" letter-spacing="4.5">ZHUANG HUITENG</text>
 
-    <path d="M64 231H613" stroke="#1F2933" stroke-opacity="0.24"/>
-    <text x="64" y="266" fill="#733C33" font-family="Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="700" letter-spacing="1.8">AUTONOMY</text>
-    <text x="196" y="266" fill="#1F2933" font-family="Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="1.8">·</text>
-    <text x="216" y="266" fill="#733C33" font-family="Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="700" letter-spacing="1.8">COORDINATION</text>
-    <text x="382" y="266" fill="#1F2933" font-family="Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="1.8">·</text>
-    <text x="402" y="266" fill="#733C33" font-family="Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="700" letter-spacing="1.8">DIGITAL TWINS</text>
+    <path d="M66 213H630" stroke="#1F2933" stroke-opacity="0.2"/>
+    <text x="64" y="244" fill="#35434C" font-family="'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif" font-size="18" letter-spacing="0.8">北京航空航天大学　·　自动化专业　·　2024 级本科生</text>
 
-    <text x="64" y="301" fill="#68747D" font-family="Consolas, 'Liberation Mono', monospace" font-size="11" letter-spacing="1.4">MODEL — MEASURE — UNDERSTAND</text>
-
-    <g transform="translate(700 116)" filter="url(#soft-shadow)">
-      <rect x="0" y="0" width="438" height="178" rx="12" fill="#FBF9F4" stroke="#1F2933" stroke-opacity="0.12"/>
-      <text x="26" y="32" fill="#68747D" font-family="Consolas, 'Liberation Mono', monospace" font-size="10" letter-spacing="1.6">SYSTEM VIEW</text>
-
-      <path d="M78 92H166" stroke="#9BA5AA" stroke-width="1.4" stroke-dasharray="3 4"/>
-      <path d="M214 92H302" stroke="#9BA5AA" stroke-width="1.4" stroke-dasharray="3 4"/>
-      <path d="M350 92H391" stroke="#9BA5AA" stroke-width="1.4" stroke-dasharray="3 4"/>
-      <path d="M122 92V56H317V92" stroke="#884A3B" stroke-opacity="0.5" stroke-width="1.2"/>
-
-      <circle cx="122" cy="92" r="31" fill="#F1E6DA" stroke="#884A3B" stroke-width="1.4"/>
-      <circle cx="317" cy="92" r="31" fill="#E6ECEA" stroke="#476A64" stroke-width="1.4"/>
-      <circle cx="122" cy="56" r="4.5" fill="#884A3B"/>
-      <circle cx="317" cy="56" r="4.5" fill="#476A64"/>
-
-      <path d="M108 92H136M122 78V106" stroke="#884A3B" stroke-width="1.5"/>
-      <path d="M304 84L318 106L332 84" stroke="#476A64" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-
-      <rect x="177" y="66" width="85" height="52" rx="5" fill="#1F2933"/>
-      <text x="219.5" y="89" text-anchor="middle" fill="#F5F1E8" font-family="Consolas, 'Liberation Mono', monospace" font-size="10" letter-spacing="1">DECISION</text>
-      <text x="219.5" y="104" text-anchor="middle" fill="#B9C2C6" font-family="Consolas, 'Liberation Mono', monospace" font-size="8" letter-spacing="1">+ FEEDBACK</text>
-
-      <text x="122" y="146" text-anchor="middle" fill="#57636D" font-family="Consolas, 'Liberation Mono', monospace" font-size="9" letter-spacing="1.2">OBSERVE</text>
-      <text x="317" y="146" text-anchor="middle" fill="#57636D" font-family="Consolas, 'Liberation Mono', monospace" font-size="9" letter-spacing="1.2">EXECUTE</text>
-      <text x="391" y="88" fill="#57636D" font-family="Consolas, 'Liberation Mono', monospace" font-size="9" letter-spacing="1.2">STATE</text>
-
-      <circle cx="100" cy="28" r="3" fill="#476A64"/>
-      <circle cx="111" cy="28" r="3" fill="#884A3B"/>
-      <circle cx="122" cy="28" r="3" fill="#C1A57D"/>
+    <g opacity="0.92">
+      <circle cx="948" cy="153" r="91" stroke="#1F2933" stroke-opacity="0.18"/>
+      <circle cx="948" cy="153" r="63" stroke="#884A3B" stroke-opacity="0.38"/>
+      <path d="M856 153H1040M948 61V245" stroke="#1F2933" stroke-opacity="0.13"/>
+      <path d="M884 89C924 49 993 53 1025 96" stroke="#476A64" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M871 215C916 250 986 242 1021 199" stroke="#884A3B" stroke-width="1.6" stroke-linecap="round"/>
+      <circle cx="925" cy="70" r="5.5" fill="#476A64"/>
+      <circle cx="1008" cy="214" r="5.5" fill="#884A3B"/>
+      <circle cx="948" cy="153" r="9" fill="#1F2933"/>
+      <circle cx="948" cy="153" r="3" fill="#F6F2E9"/>
     </g>
 
-    <text x="1138" y="301" text-anchor="end" fill="#68747D" font-family="Consolas, 'Liberation Mono', monospace" font-size="10" letter-spacing="1.3">SIMULATION / AUTONOMY / INTERFACES</text>
+    <text x="948" y="273" text-anchor="middle" fill="#68747D" font-family="Consolas, 'Liberation Mono', monospace" font-size="10" letter-spacing="1.8">SYSTEMS · IDEAS · INTERFACES</text>
   </g>
 </svg>
