@@ -4,10 +4,6 @@
   </a>
 </p>
 
-<p align="center">
-  Beihang University · Automation · Undergraduate, Class of 2024
-</p>
-
 Hi, I'm **Huiteng Zhuang**. I enjoy turning complex ideas into systems that actually run.
 This page collects my public projects and updates automatically when I publish something new.
 
@@ -27,7 +23,7 @@ This page collects my public projects and updates automatically when I publish s
 <tr><td width="50%" valign="top"><a href="https://github.com/ZhuangHT-1201/three-blade-folding-hub"><strong>three-blade-folding-hub</strong></a><br><sub>Three-blade folding rotor hub design · Python</sub></td><td width="50%" valign="top"><a href="https://github.com/ZhuangHT-1201/pindou-studio"><strong>pindou-studio</strong></a><br><sub>Image-to-perler-bead pattern tool · TypeScript</sub></td></tr>
 <tr><td width="50%" valign="top"><a href="https://github.com/ZhuangHT-1201/EchoScribe"><strong>EchoScribe</strong></a><br><sub>Local speech-to-text desktop app · JavaScript</sub></td><td width="50%" valign="top"><a href="https://github.com/ZhuangHT-1201/formatforge"><strong>formatforge</strong></a><br><sub>Local file-format converter · Python</sub></td></tr>
 <tr><td width="50%" valign="top"><a href="https://github.com/ZhuangHT-1201/keep-run-screenshot-generate"><strong>keep-run-screenshot-generate</strong></a><br><sub>Run-summary image generator · Python</sub></td><td width="50%" valign="top"><a href="https://github.com/ZhuangHT-1201/devs_gen_code"><strong>devs_gen_code</strong></a><br><sub>DEVS agent code generation · Python · Fork</sub></td></tr>
-<tr><td width="50%" valign="top"><a href="https://github.com/ZhuangHT-1201/autodrive_sim"><strong>autodrive_sim</strong></a><br><sub>Closed-loop autonomous driving simulation · Python</sub></td><td width="50%" valign="top"><a href="https://github.com/ZhuangHT-1201/OptPilot"><strong>OptPilot</strong></a><br><sub>AI optimization workflow orchestration · Code · Fork</sub></td></tr>
+<tr><td width="50%" valign="top"><a href="https://github.com/ZhuangHT-1201/autodrive_sim"><strong>autodrive_sim</strong></a><br><sub>Closed-loop autonomous driving simulation · Python</sub></td><td width="50%" valign="top"><a href="https://github.com/ZhuangHT-1201/OptPilot"><strong>OptPilot</strong></a><br><sub>AI optimization workflow orchestration · Fork</sub></td></tr>
 <tr><td width="50%" valign="top"><a href="https://github.com/ZhuangHT-1201/undergraduate-simulation"><strong>undergraduate-simulation</strong></a><br><sub>Four-year university life simulation game · JavaScript</sub></td><td width="50%" valign="top"><a href="https://github.com/ZhuangHT-1201/MyOwnAI"><strong>MyOwnAI</strong></a><br><sub>Local-first AI desktop assistant · Python</sub></td></tr>
 <tr><td width="50%" valign="top"><a href="https://github.com/ZhuangHT-1201/ThisIsMyDepartment.AI"><strong>ThisIsMyDepartment.AI</strong></a><br><sub>Virtual department collaboration platform · TypeScript</sub></td><td width="50%" valign="top">&nbsp;</td></tr>
 </table>

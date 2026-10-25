@@ -111,8 +111,10 @@ def project_cell(repository: dict, overrides: dict[str, str]) -> str:
         description = repository.get("description") or readme_summary(name)
     description = short_summary(description) or "Public project"
 
-    language = repository.get("language") or "Code"
-    details = [description, language]
+    language = repository.get("language")
+    details = [description]
+    if language:
+        details.append(language)
     if repository.get("fork"):
         details.append("Fork")
 
