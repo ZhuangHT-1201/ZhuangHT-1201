@@ -10,9 +10,10 @@ This page collects my public projects and updates automatically when I publish s
 ## Projects
 
 <!-- PROJECTS:START -->
-<sub>32 public projects · Ordered by creation date · Refreshes every 6 hours</sub>
+<sub>34 public projects · Ordered by creation date · Refreshes every 6 hours</sub>
 
 <table align="center" width="100%">
+<tr><td width="50%" valign="top"><a href="https://github.com/ZhuangHT-1201/staywise-hotel-finder"><strong>staywise-hotel-finder</strong></a><br><sub>Bilingual hotel price comparison with exact-place and… · JavaScript</sub></td><td width="50%" valign="top"><a href="https://github.com/ZhuangHT-1201/meet-in-between"><strong>meet-in-between</strong></a><br><sub>Find a fair meeting point between two locations. Bili… · TypeScript</sub></td></tr>
 <tr><td width="50%" valign="top"><a href="https://github.com/ZhuangHT-1201/local-image-studio"><strong>local-image-studio</strong></a><br><sub>Local-first one-click ComfyUI studio with unfiltered… · HTML</sub></td><td width="50%" valign="top"><a href="https://github.com/ZhuangHT-1201/forge-agent"><strong>forge-agent</strong></a><br><sub>Local-first desktop coding agent powered by your own… · Python</sub></td></tr>
 <tr><td width="50%" valign="top"><a href="https://github.com/ZhuangHT-1201/rank-peak-lab"><strong>rank-peak-lab</strong></a><br><sub>Ranked and Peak match analysis for Honor of Kings · JavaScript</sub></td><td width="50%" valign="top"><a href="https://github.com/ZhuangHT-1201/longform-novel-production"><strong>longform-novel-production</strong></a><br><sub>A portable skill for planning, drafting, auditing, an… · Python</sub></td></tr>
 <tr><td width="50%" valign="top"><a href="https://github.com/ZhuangHT-1201/milk-frog-make-me-laugh"><strong>milk-frog-make-me-laugh</strong></a><br><sub>A chaotic 40-second Milk Frog prank game with eight c… · HTML</sub></td><td width="50%" valign="top"><a href="https://github.com/ZhuangHT-1201/linetrail"><strong>linetrail</strong></a><br><sub>Turn any image into clean, hand-drawn line art in you… · JavaScript</sub></td></tr>
