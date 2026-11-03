@@ -10,9 +10,10 @@ This page collects my public projects and updates automatically when I publish s
 ## Projects
 
 <!-- PROJECTS:START -->
-<sub>38 public projects · Ordered by creation date · Refreshes every 6 hours</sub>
+<sub>40 public projects · Ordered by creation date · Refreshes every 6 hours</sub>
 
 <table align="center" width="100%">
+<tr><td width="50%" valign="top"><a href="https://github.com/ZhuangHT-1201/buaa-boya-desktop"><strong>buaa-boya-desktop</strong></a><br><sub>A bilingual Windows desktop controller for gap-aware… · Python</sub></td><td width="50%" valign="top"><a href="https://github.com/ZhuangHT-1201/buaa-td"><strong>buaa-td</strong></a><br><sub>Bilingual Windows console for scheduled BUAA TD check… · Python</sub></td></tr>
 <tr><td width="50%" valign="top"><a href="https://github.com/ZhuangHT-1201/buaa-today-food"><strong>buaa-today-food</strong></a><br><sub>A bilingual Beihang University dining discovery app w… · JavaScript</sub></td><td width="50%" valign="top"><a href="https://github.com/ZhuangHT-1201/coaxial-rotor-cfd"><strong>coaxial-rotor-cfd</strong></a><br><sub>Reproducible OpenFOAM CFD workflow and engineering ba… · Python</sub></td></tr>
 <tr><td width="50%" valign="top"><a href="https://github.com/ZhuangHT-1201/paradox-lab"><strong>paradox-lab</strong></a><br><sub>Nine bilingual game-theory experiments with local and… · JavaScript</sub></td><td width="50%" valign="top"><a href="https://github.com/ZhuangHT-1201/black-tide-origin"><strong>black-tide-origin</strong></a><br><sub>An open-source bilingual third-person bio-action game… · JavaScript</sub></td></tr>
 <tr><td width="50%" valign="top"><a href="https://github.com/ZhuangHT-1201/staywise-hotel-finder"><strong>staywise-hotel-finder</strong></a><br><sub>Bilingual hotel price comparison with exact-place and… · JavaScript</sub></td><td width="50%" valign="top"><a href="https://github.com/ZhuangHT-1201/meet-in-between"><strong>meet-in-between</strong></a><br><sub>Find a fair meeting point between two locations. Bili… · TypeScript</sub></td></tr>
