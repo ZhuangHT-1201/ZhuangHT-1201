@@ -10,13 +10,17 @@ This page collects my public projects and updates automatically when I publish s
 ## Projects
 
 <!-- PROJECTS:START -->
-<sub>43 public projects · Ordered by creation date · Refreshes every 6 hours</sub>
-
 <table align="center" width="100%">
 <tr><td width="50%" valign="top"><a href="https://github.com/ZhuangHT-1201/wechat-local-exporter"><strong>wechat-local-exporter</strong></a><br><sub>Export WeChat 4.x conversations into readable, offlin… · Python</sub></td><td width="50%" valign="top"><a href="https://github.com/ZhuangHT-1201/garden-of-little-lights"><strong>garden-of-little-lights</strong></a><br><sub>A cozy open-source 2.5D garden merge journal for web… · CSS</sub></td></tr>
 <tr><td width="50%" valign="top"><a href="https://github.com/ZhuangHT-1201/error-composition-course-agent"><strong>error-composition-course-agent</strong></a><br><sub>Measurement error composition course knowledge agent · JavaScript</sub></td><td width="50%" valign="top"><a href="https://github.com/ZhuangHT-1201/buaa-boya-desktop"><strong>buaa-boya-desktop</strong></a><br><sub>A bilingual Windows desktop controller for gap-aware… · Python</sub></td></tr>
 <tr><td width="50%" valign="top"><a href="https://github.com/ZhuangHT-1201/buaa-td"><strong>buaa-td</strong></a><br><sub>Bilingual Windows console for scheduled BUAA TD check… · Python</sub></td><td width="50%" valign="top"><a href="https://github.com/ZhuangHT-1201/buaa-today-food"><strong>buaa-today-food</strong></a><br><sub>A bilingual Beihang University dining discovery app w… · JavaScript</sub></td></tr>
 <tr><td width="50%" valign="top"><a href="https://github.com/ZhuangHT-1201/coaxial-rotor-cfd"><strong>coaxial-rotor-cfd</strong></a><br><sub>Reproducible OpenFOAM CFD workflow and engineering ba… · Python</sub></td><td width="50%" valign="top"><a href="https://github.com/ZhuangHT-1201/paradox-lab"><strong>paradox-lab</strong></a><br><sub>Nine bilingual game-theory experiments with local and… · JavaScript</sub></td></tr>
+</table>
+
+<details>
+<summary><strong>Browse all projects</strong></summary>
+
+<table align="center" width="100%">
 <tr><td width="50%" valign="top"><a href="https://github.com/ZhuangHT-1201/black-tide-origin"><strong>black-tide-origin</strong></a><br><sub>An open-source bilingual third-person bio-action game… · JavaScript</sub></td><td width="50%" valign="top"><a href="https://github.com/ZhuangHT-1201/staywise-hotel-finder"><strong>staywise-hotel-finder</strong></a><br><sub>Bilingual hotel price comparison with exact-place and… · JavaScript</sub></td></tr>
 <tr><td width="50%" valign="top"><a href="https://github.com/ZhuangHT-1201/meet-in-between"><strong>meet-in-between</strong></a><br><sub>Find a fair meeting point between two locations. Bili… · TypeScript</sub></td><td width="50%" valign="top"><a href="https://github.com/ZhuangHT-1201/local-image-studio"><strong>local-image-studio</strong></a><br><sub>Local-first one-click ComfyUI studio with unfiltered… · HTML</sub></td></tr>
 <tr><td width="50%" valign="top"><a href="https://github.com/ZhuangHT-1201/forge-agent"><strong>forge-agent</strong></a><br><sub>Local-first desktop coding agent powered by your own… · Python</sub></td><td width="50%" valign="top"><a href="https://github.com/ZhuangHT-1201/rank-peak-lab"><strong>rank-peak-lab</strong></a><br><sub>Ranked and Peak match analysis for Honor of Kings · JavaScript</sub></td></tr>
@@ -36,6 +40,8 @@ This page collects my public projects and updates automatically when I publish s
 <tr><td width="50%" valign="top"><a href="https://github.com/ZhuangHT-1201/undergraduate-simulation"><strong>undergraduate-simulation</strong></a><br><sub>Four-year university life simulation game · JavaScript</sub></td><td width="50%" valign="top"><a href="https://github.com/ZhuangHT-1201/MyOwnAI"><strong>MyOwnAI</strong></a><br><sub>Local-first AI desktop assistant · Python</sub></td></tr>
 <tr><td width="50%" valign="top"><a href="https://github.com/ZhuangHT-1201/ThisIsMyDepartment.AI"><strong>ThisIsMyDepartment.AI</strong></a><br><sub>Virtual department collaboration platform · TypeScript</sub></td><td width="50%" valign="top">&nbsp;</td></tr>
 </table>
+
+</details>
 <!-- PROJECTS:END -->
 
 <p align="center">

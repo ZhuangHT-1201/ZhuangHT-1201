@@ -17,6 +17,7 @@ API_ROOT = "https://api.github.com"
 API_VERSION = "2022-11-28"
 START_MARKER = "<!-- PROJECTS:START -->"
 END_MARKER = "<!-- PROJECTS:END -->"
+VISIBLE_PROJECTS = 8
 
 ROOT = Path(__file__).resolve().parents[1]
 README_PATH = ROOT / "README.md"
@@ -125,7 +126,7 @@ def project_cell(repository: dict, overrides: dict[str, str]) -> str:
     )
 
 
-def render_index(repositories: list[dict], overrides: dict[str, str]) -> str:
+def render_project_table(repositories: list[dict], overrides: dict[str, str]) -> str:
     cells = [project_cell(repository, overrides) for repository in repositories]
     if len(cells) % 2:
         cells.append("")
@@ -135,19 +136,38 @@ def render_index(repositories: list[dict], overrides: dict[str, str]) -> str:
         f'<td width="50%" valign="top">{cells[index + 1] or "&nbsp;"}</td></tr>'
         for index in range(0, len(cells), 2)
     ]
-    count = len(repositories)
 
     return "\n".join(
         [
-            START_MARKER,
-            f"<sub>{count} public projects · Ordered by creation date · Refreshes every 6 hours</sub>",
-            "",
             '<table align="center" width="100%">',
             *rows,
             "</table>",
-            END_MARKER,
         ]
     )
+
+
+def render_index(repositories: list[dict], overrides: dict[str, str]) -> str:
+    visible = repositories[:VISIBLE_PROJECTS]
+    remaining = repositories[VISIBLE_PROJECTS:]
+
+    sections = [
+        START_MARKER,
+        render_project_table(visible, overrides),
+    ]
+    if remaining:
+        sections.extend(
+            [
+                "",
+                "<details>",
+                "<summary><strong>Browse all projects</strong></summary>",
+                "",
+                render_project_table(remaining, overrides),
+                "",
+                "</details>",
+            ]
+        )
+    sections.append(END_MARKER)
+    return "\n".join(sections)
 
 
 def main() -> int:
